@@ -1,36 +1,11 @@
 # tweet-scrap
 
-FIXME: description
+Get search result from twitter. My Clojure learning process.
 
 ## Installation
 
-Download from http://example.com/FIXME.
+`lein uberjar`
 
 ## Usage
 
-FIXME: explanation
-
-    $ java -jar tweet-scrap-0.1.0-standalone.jar [args]
-
-## Options
-
-FIXME: listing of options this app accepts.
-
-## Examples
-
-...
-
-### Bugs
-
-...
-
-### Any Other Sections
-### That You Think
-### Might be Useful
-
-## License
-
-Copyright © 2014 FIXME
-
-Distributed under the Eclipse Public License either version 1.0 or (at
-your option) any later version.
+`$ java -jar tweet-scrap-0.1.0-standalone.jar [query]`
