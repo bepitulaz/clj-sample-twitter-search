@@ -9,6 +9,15 @@
    (twitter.callbacks.protocols SyncSingleCallback))
   (:gen-class))
 
+;; Consumer Key 
+(def ^:dynamic *app-consumer-key* "")
+;; Consumer Secret
+(def ^:dynamic *app-consumer-secret* "")
+;; Access Token
+(def ^:dynamic *user-access-token* "")
+;; Access Token Secret
+(def ^:dynamic *user-access-token-secret* "")
+
 ;; Creating credential
 ;; @param app-consumer-key
 ;; @param app-consumer-secret
